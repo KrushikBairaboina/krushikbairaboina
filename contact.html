@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>krushik -Web Developer,Programmer </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar sidebarGo">
+
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="intro.html">My Intro</a></li>
+               <li><a CV href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact Me</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="cart.html"><i class="fa-sharp fa-solid fa-cart-shopping"></i></a></li>
+
+            </ul>
+        </nav>
+    </div>
+    <div class="main">
+        <div class="hamburger">
+            <img class="ham"src="kkkkk.png" alt="" width="23">
+            <img class="cross"src="krus.png" alt="" width="23"> 
+        </div>
+        <div class="contactform">
+            <h1>Contact me for work/general enquires</h1>
+            <form id="form-group">
+                <div class="form-group">
+                  <label for="clientname">Name</label>
+                  <input id ="clientname" input type="text" class="form-control"  aria-describedby="nameHelp" placeholder="clientname" required>
+                </div>
+                <div class="form-group">
+                  <label for="clientemail">Email </label>
+                  <input type="text" class="form-control" id="clientemail" aria-describedby="emailHelp" placeholder="Enter email">
+                  <div id="emailHelp" class="form-text text-muted">We'll never share your email & phone with anyone else.</div>
+                </div>
+                <div class="form-group">
+                  <label for="clientphone">Phone</label>
+                  <input type="number" class="form-control" id="clientphone" placeholder="number">
+                </div>
+                <div class="form-group">
+                    <label for="clientenquiry">Enquiry</label>
+                    <input type="text" class="form-control" id="clientenquiry" aria-describedby="enquiry" >
+                  </div>
+                <div class="form-group"id="form-check">
+                  <input type="checkbox" class="form-check-input" id="isclient">
+                  <label class="form-check-label" for="isclient">I want you to work on a project with me</label>
+                </div> 
+                <button onclick="myfunction()" class="btn btn-sm" id="mybutton" >submit</button>
+              </form>
+        </div>
+        </div>
+    </div> 
+    <script src="script.js">
+    
+    </script>
+
+</body>
+</html>
